@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "wikipedia-python"
+version = "0.1.0"
+description = ""
+authors = ["Jesus Milan <jgmc3012@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+click = "^7.0"
+requests = "^2.24.0"
+install = "^1.3.1"
+
+[tool.poetry.dev-dependencies]
+
+
+[tool.poetry.scripts]
+wikipedia-python = "wikipedia_python.console:main"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+description = "The wikipedia CLI Python project"
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/jgmc3012/wikipedia-python"
+repository = "https://github.com/jgmc3012/wikipedia-python"
+keywords = ["wikipedia"]
